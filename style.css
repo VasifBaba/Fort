@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 44px;
+    background: #376bff;
+}
+.setting{
+    float: right;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.menu{
+    margin: 0 0 0 450px;
+}
+.menu li{
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu2{
+    width: 800px;
+    margin: 0 0 0 580px;
+}
+.menu2 li{
+    color: black;
+    display: inline-block;
+    padding: 17px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fort{
+    width: 100%;
+    height: 100px;
+}
+.logo{
+    width: 84px;
+    height: 49px;
+    margin: 0 0 0 460px;
+}
+.container{
+    width: 100%;
+    height: 1100px;
+    background-image: url(images/banner-2.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.conorta{
+    width: 1140px;
+    height: 500px;
+    margin: auto;
+    padding: 500px 0 0 0;
+}
+.qutular{
+    width: 1140px;
+    display: flex;
+    margin:auto;
+}
+img{
+    width:100%
+}
+.qutu{
+    margin-top:40px;
+    margin-right:10px;
+    flex: 1;
+    overflow: hidden;
+    box-shadow: 10px 0 35px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.qutu h1{
+    font-size: 23px;
+    margin-bottom: 10px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sekil{
+    position: relative;
+}
+.featured{
+    position: absolute;
+    left: -47px;
+    top: 28px;
+    text-align: center;
+    transform: rotate(-45deg);
+    background: #376bff;
+    color: #fff;
+    padding: 10px 58px;
+}
+.detail{
+    padding: 15px 20px;
+}
+.detail h1{
+    color:#376bff;
+
+}
+.detail h1:hover{
+    color: #000;
+}
+.twoorta{
+    width: 960px;
+    height: 250px;
+    margin: auto;
+    padding: 100px;
+}
+.two{
+    width: 100%;
+    height: 200px;
+    background: #fff;
+}
+.a{
+    width: 100%;
+    height: 60px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    padding: 0 15px 0 0;
+}
+.b{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000;
+    font-weight: 500;
+}
+.elebele{
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+.our{
+    width: 100%;
+    height: 670px;
+    background-image: url(images/bg-2.jpg);
+    background-size: cover;
+}
+.ourorta{
+    width: 100%;
+    height: 650px;
+    padding: 100px;
+} 
+.c{
+    width: 100%;
+    height: 60px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 0 15px 0 0;
+}
+.d{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+.e{
+    width: 100%;
+    height: 60px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+.f{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 500;
+}
+.ourqutu{
+    width: 1140px;
+    height: 600px;
+    margin: auto;
+}
+.lalala{
+    width: 285px;
+    height: 270px;
+    background: #fff;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 80px;
+}
+.ic{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    padding: 0 0 0 10px;
+}
+.detail2{
+    width: 90%;
+    height: 90px;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 1.5;
+}
+/* Dropdown Button */
+.dropbtn {
+    background: #fff;
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #376bff;}
